@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5279A5461CB72F7F0030721D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5279A5451CB72F7F0030721D /* main.cpp */; };
-		52CE16841CB881300032B514 /* assign9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52CE16831CB881300032B514 /* assign9.cpp */; };
+		5285DB521CBDB16F00A73684 /* Postfix_cal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5285DB511CBDB16F00A73684 /* Postfix_cal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5279A5421CB72F7F0030721D /* assign9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = assign9; sourceTree = BUILT_PRODUCTS_DIR; };
+		5279A5421CB72F7F0030721D /* Postfix calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Postfix calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5279A5451CB72F7F0030721D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		52CE16821CB880CE0032B514 /* assign9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assign9.h; sourceTree = "<group>"; };
-		52CE16831CB881300032B514 /* assign9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assign9.cpp; sourceTree = "<group>"; };
+		5285DB511CBDB16F00A73684 /* Postfix_cal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Postfix_cal.cpp; sourceTree = "<group>"; };
+		52CE16821CB880CE0032B514 /* Postfix_cal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Postfix_cal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		5279A5391CB72F7F0030721D = {
 			isa = PBXGroup;
 			children = (
-				5279A5441CB72F7F0030721D /* assign9 */,
+				5279A5441CB72F7F0030721D /* Postfix calculator */,
 				5279A5431CB72F7F0030721D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,28 @@
 		5279A5431CB72F7F0030721D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5279A5421CB72F7F0030721D /* assign9 */,
+				5279A5421CB72F7F0030721D /* Postfix calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5279A5441CB72F7F0030721D /* assign9 */ = {
+		5279A5441CB72F7F0030721D /* Postfix calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5285DB511CBDB16F00A73684 /* Postfix_cal.cpp */,
 				5279A5451CB72F7F0030721D /* main.cpp */,
-				52CE16821CB880CE0032B514 /* assign9.h */,
-				52CE16831CB881300032B514 /* assign9.cpp */,
+				52CE16821CB880CE0032B514 /* Postfix_cal.h */,
 			);
+			name = "Postfix calculator";
 			path = assign9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5279A5411CB72F7F0030721D /* assign9 */ = {
+		5279A5411CB72F7F0030721D /* Postfix calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5279A5491CB72F7F0030721D /* Build configuration list for PBXNativeTarget "assign9" */;
+			buildConfigurationList = 5279A5491CB72F7F0030721D /* Build configuration list for PBXNativeTarget "Postfix calculator" */;
 			buildPhases = (
 				5279A53E1CB72F7F0030721D /* Sources */,
 				5279A53F1CB72F7F0030721D /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = assign9;
+			name = "Postfix calculator";
 			productName = assign9;
-			productReference = 5279A5421CB72F7F0030721D /* assign9 */;
+			productReference = 5279A5421CB72F7F0030721D /* Postfix calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5279A53D1CB72F7F0030721D /* Build configuration list for PBXProject "assign9" */;
+			buildConfigurationList = 5279A53D1CB72F7F0030721D /* Build configuration list for PBXProject "Postfix calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5279A5411CB72F7F0030721D /* assign9 */,
+				5279A5411CB72F7F0030721D /* Postfix calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CE16841CB881300032B514 /* assign9.cpp in Sources */,
+				5285DB521CBDB16F00A73684 /* Postfix_cal.cpp in Sources */,
 				5279A5461CB72F7F0030721D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,21 +216,21 @@
 		5279A54A1CB72F7F0030721D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Postfix calculator";
 			};
 			name = Debug;
 		};
 		5279A54B1CB72F7F0030721D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Postfix calculator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5279A53D1CB72F7F0030721D /* Build configuration list for PBXProject "assign9" */ = {
+		5279A53D1CB72F7F0030721D /* Build configuration list for PBXProject "Postfix calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5279A5471CB72F7F0030721D /* Debug */,
@@ -238,7 +239,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5279A5491CB72F7F0030721D /* Build configuration list for PBXNativeTarget "assign9" */ = {
+		5279A5491CB72F7F0030721D /* Build configuration list for PBXNativeTarget "Postfix calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5279A54A1CB72F7F0030721D /* Debug */,

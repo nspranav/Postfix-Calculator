@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5279A5411CB72F7F0030721D"
-               BuildableName = "assign9"
-               BlueprintName = "assign9"
-               ReferencedContainer = "container:assign9.xcodeproj">
+               BuildableName = "Postfix calculator"
+               BlueprintName = "Postfix calculator"
+               ReferencedContainer = "container:Postfix calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5279A5411CB72F7F0030721D"
-            BuildableName = "assign9"
-            BlueprintName = "assign9"
-            ReferencedContainer = "container:assign9.xcodeproj">
+            BuildableName = "Postfix calculator"
+            BlueprintName = "Postfix calculator"
+            ReferencedContainer = "container:Postfix calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5279A5411CB72F7F0030721D"
-            BuildableName = "assign9"
-            BlueprintName = "assign9"
-            ReferencedContainer = "container:assign9.xcodeproj">
+            BuildableName = "Postfix calculator"
+            BlueprintName = "Postfix calculator"
+            ReferencedContainer = "container:Postfix calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5279A5411CB72F7F0030721D"
-            BuildableName = "assign9"
-            BlueprintName = "assign9"
-            ReferencedContainer = "container:assign9.xcodeproj">
+            BuildableName = "Postfix calculator"
+            BlueprintName = "Postfix calculator"
+            ReferencedContainer = "container:Postfix calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
